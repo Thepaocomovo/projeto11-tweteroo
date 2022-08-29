@@ -1,0 +1,24 @@
+{
+  "name": "projeto11-tweteroo",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Thepaocomovo/projeto11-tweteroo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Thepaocomovo/projeto11-tweteroo/issues"
+  },
+  "homepage": "https://github.com/Thepaocomovo/projeto11-tweteroo#readme"
+}
