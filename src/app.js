@@ -30,7 +30,7 @@ server.post('/sign-up', (req, res) => {
         }
         res.status(400).send("Insira uma url valida");
     }
-    res.status(400).send("Envie todos os campos necessários");
+    res.status(400).send("Todos os campos são obrigatórios!");
   });
 
 
@@ -45,7 +45,7 @@ server.post('/tweets', (req, res) => {
         return res.send("ok");
     }
 
-    res.status(400).send("Envie todos os campos necessários");
+    res.status(400).send("Todos os campos são obrigatórios!");
 });
 
 server.get('/tweets', (req, res) => {
